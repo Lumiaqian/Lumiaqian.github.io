@@ -104,14 +104,14 @@
 <meta name="description" content="问题描述最近在自己的博客系统中使用PageHelper做分页查询，设置的pageNum和pageSize是1和5，数据库中的数据数也是大于5的，预计查询的结果是5条，但只查出了3条数据。 原因经过Google分析得到的原因是：PageHelper分页是在合并结果集之前进行的也就是在SQL语句后加上limit?,?，但collection会把相同结果映射为List，所以执行的顺序是先拦截条数，后封装">
 <meta name="keywords" content="Mybatis">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PageHelper和mybatis的&lt;collection&gt;冲突导致查询结果变少">
+<meta property="og:title" content="PageHelper和mybatis的collection标签冲突导致查询结果变少">
 <meta property="og:url" content="http://yoursite.com/2018/09/06/PageHelper和mybatis的-collection-冲突导致查询结果变少/index.html">
 <meta property="og:site_name" content="LumiaQian的踩坑日记">
 <meta property="og:description" content="问题描述最近在自己的博客系统中使用PageHelper做分页查询，设置的pageNum和pageSize是1和5，数据库中的数据数也是大于5的，预计查询的结果是5条，但只查出了3条数据。 原因经过Google分析得到的原因是：PageHelper分页是在合并结果集之前进行的也就是在SQL语句后加上limit?,?，但collection会把相同结果映射为List，所以执行的顺序是先拦截条数，后封装">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-06T14:41:19.521Z">
+<meta property="og:updated_time" content="2018-09-06T14:44:50.342Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="PageHelper和mybatis的&lt;collection&gt;冲突导致查询结果变少">
+<meta name="twitter:title" content="PageHelper和mybatis的collection标签冲突导致查询结果变少">
 <meta name="twitter:description" content="问题描述最近在自己的博客系统中使用PageHelper做分页查询，设置的pageNum和pageSize是1和5，数据库中的数据数也是大于5的，预计查询的结果是5条，但只查出了3条数据。 原因经过Google分析得到的原因是：PageHelper分页是在合并结果集之前进行的也就是在SQL语句后加上limit?,?，但collection会把相同结果映射为List，所以执行的顺序是先拦截条数，后封装">
 
 
@@ -129,7 +129,7 @@
   };
 </script>
 
-  <title>PageHelper和mybatis的<collection>冲突导致查询结果变少 | LumiaQian的踩坑日记</title>
+  <title>PageHelper和mybatis的collection标签冲突导致查询结果变少 | LumiaQian的踩坑日记</title>
   
 
 
@@ -375,7 +375,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">PageHelper和mybatis的<collection>冲突导致查询结果变少</h1>
+          <h1 class="post-title" itemprop="name headline">PageHelper和mybatis的collection标签冲突导致查询结果变少</h1>
         
 
         <div class="post-meta">
