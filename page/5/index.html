@@ -2,6 +2,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
   
 
 
@@ -49,19 +58,19 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=6.0.6" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=6.4.2" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.0.6">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.2">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=6.0.6">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.2">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.ico?v=6.0.6">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.2">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.0.6" color="#222">
+  <link rel="mask-icon" href="/images/logo.svg?v=6.4.2" color="#222">
 
 
 
@@ -76,7 +85,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    version: '6.0.6',
+    version: '6.4.2',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: false,
     fastclick: false,
@@ -99,11 +108,7 @@
 
 
 
-  
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-<meta name="description" content="一个菜鸟码农的学习生活记录">
+  <meta name="description" content="一个菜鸟码农的学习生活记录">
 <meta property="og:type" content="website">
 <meta property="og:title" content="LumiaQian的踩坑日记">
 <meta property="og:url" content="http://yoursite.com/page/5/index.html">
@@ -131,6 +136,8 @@
 
   <title>LumiaQian的踩坑日记</title>
   
+
+
 
 
 
@@ -181,9 +188,7 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"> 
-
-<div class="site-brand-wrapper">
+      <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
     
 
@@ -194,13 +199,15 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
       
         <p class="site-subtitle">梦中不觉愧已生，形秽岂是为他人！</p>
       
+    
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Toggle navigation bar">
+    <button aria-label="切换导航栏">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -208,58 +215,54 @@
   </div>
 </div>
 
-<nav class="site-nav">
-  
 
+
+<nav class="site-nav">
   
     <ul id="menu" class="menu">
       
         
         
+        
           
-  <li class="menu-item menu-item-home">
+          <li class="menu-item menu-item-home">
     <a href="/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
-</li>
-
-      
+  </li>
+        
         
         
           
-  <li class="menu-item menu-item-tags">
+          <li class="menu-item menu-item-tags">
     <a href="/tags/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
-</li>
-
-      
+  </li>
+        
         
         
           
-  <li class="menu-item menu-item-categories">
+          <li class="menu-item menu-item-categories">
     <a href="/categories/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
-</li>
-
-      
+  </li>
+        
         
         
           
-  <li class="menu-item menu-item-archives">
+          <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
-</li>
-
-      
+  </li>
+        
         
         
           
-  <li class="menu-item menu-item-about">
+          <li class="menu-item menu-item-about">
     <a href="/about/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
-</li>
+  </li>
 
       
-
       
         <li class="menu-item menu-item-search">
           
@@ -274,28 +277,6 @@
 
   
     
-
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
 
   
 
@@ -326,11 +307,12 @@
 </nav>
 
 
+
   
 
 
 
- </div>
+</div>
     </header>
 
     
@@ -363,7 +345,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -378,11 +360,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/15/e7-94-9f-e6-88-90-e5-99-a8generator/" itemprop="url">生成器generator和迭代器Iterator</a></h1>
+                <a class="post-title-link" href="/2017/08/15/e7-94-9f-e6-88-90-e5-99-a8generator/" itemprop="url">
+                  生成器generator和迭代器Iterator
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -390,12 +382,30 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-15T11:22:27+08:00">2017-08-15</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-08-15 11:22:27" itemprop="dateCreated datePublished" datetime="2017-08-15T11:22:27+08:00">2017-08-15</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-15 13:24:02" itemprop="dateModified" datetime="2018-03-15T13:24:02+08:00">2018-03-15</time>
+              
             
           </span>
 
@@ -437,9 +447,9 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">2.1k</span>
+                <span title="本文字数">2.1k</span>
               
 
               
@@ -453,7 +463,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">2 mins.</span>
+                <span title="阅读时长">2 分钟</span>
               
             </div>
           
@@ -479,11 +489,13 @@
 要创建一个generator，有很多种方法。第一种方法很简单，只要把一个列表生成式的[]改成()，就创建了一个generato
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/08/15/e7-94-9f-e6-88-90-e5-99-a8generator/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/08/15/e7-94-9f-e6-88-90-e5-99-a8generator/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -540,7 +552,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -555,11 +567,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/07/thinking-in-java-java-e7-9a-84-e7-89-b9-e5-be-81/" itemprop="url">Thinking in Java-Java面向对象</a></h1>
+                <a class="post-title-link" href="/2017/08/07/thinking-in-java-java-e7-9a-84-e7-89-b9-e5-be-81/" itemprop="url">
+                  Thinking in Java-Java面向对象
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -567,12 +589,30 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-07T14:53:56+08:00">2017-08-07</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-08-07 14:53:56" itemprop="dateCreated datePublished" datetime="2017-08-07T14:53:56+08:00">2017-08-07</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-14 17:09:46" itemprop="dateModified" datetime="2018-03-14T17:09:46+08:00">2018-03-14</time>
+              
             
           </span>
 
@@ -614,9 +654,9 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">307</span>
+                <span title="本文字数">307</span>
               
 
               
@@ -630,7 +670,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 mins.</span>
+                <span title="阅读时长">1 分钟</span>
               
             </div>
           
@@ -657,11 +697,13 @@
 程序是一大堆对象的组合。通过消息传递，各对象知道自己该做什么。为了向对象发出请求，需向那个对象“发送一条消息”。更具体
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/08/07/thinking-in-java-java-e7-9a-84-e7-89-b9-e5-be-81/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/08/07/thinking-in-java-java-e7-9a-84-e7-89-b9-e5-be-81/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -718,7 +760,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -733,11 +775,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/07/e5-87-bd-e6-95-b0-e5-8f-82-e6-95-b0/" itemprop="url">函数参数</a></h1>
+                <a class="post-title-link" href="/2017/08/07/e5-87-bd-e6-95-b0-e5-8f-82-e6-95-b0/" itemprop="url">
+                  函数参数
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -745,12 +797,30 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-07T14:43:12+08:00">2017-08-07</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-08-07 14:43:12" itemprop="dateCreated datePublished" datetime="2017-08-07T14:43:12+08:00">2017-08-07</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-15 13:34:32" itemprop="dateModified" datetime="2018-03-15T13:34:32+08:00">2018-03-15</time>
+              
             
           </span>
 
@@ -792,9 +862,9 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">3.3k</span>
+                <span title="本文字数">3.3k</span>
               
 
               
@@ -808,7 +878,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">3 mins.</span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
@@ -838,11 +908,13 @@
 123456d
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/08/07/e5-87-bd-e6-95-b0-e5-8f-82-e6-95-b0/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/08/07/e5-87-bd-e6-95-b0-e5-8f-82-e6-95-b0/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -899,7 +971,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -914,11 +986,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/07/e5-87-bd-e6-95-b0function/" itemprop="url">函数function</a></h1>
+                <a class="post-title-link" href="/2017/08/07/e5-87-bd-e6-95-b0function/" itemprop="url">
+                  函数function
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -926,12 +1008,30 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-07T09:31:58+08:00">2017-08-07</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-08-07 09:31:58" itemprop="dateCreated datePublished" datetime="2017-08-07T09:31:58+08:00">2017-08-07</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-15 13:36:26" itemprop="dateModified" datetime="2018-03-15T13:36:26+08:00">2018-03-15</time>
+              
             
           </span>
 
@@ -973,9 +1073,9 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">878</span>
+                <span title="本文字数">878</span>
               
 
               
@@ -989,7 +1089,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 mins.</span>
+                <span title="阅读时长">1 分钟</span>
               
             </div>
           
@@ -1018,11 +1118,13 @@
 如果调用函数时传入的参数数量不对，会报TypeError的错误，并且Python会明确
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/08/07/e5-87-bd-e6-95-b0function/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/08/07/e5-87-bd-e6-95-b0function/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1079,7 +1181,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -1094,11 +1196,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/03/e8-87-aa-e5-b7-b1-e7-9b-ae-e5-89-8d-e5-b8-b8-e7-94-a8linux-e5-91-bd-e4-bb-a4/" itemprop="url">自己目前常用Linux命令</a></h1>
+                <a class="post-title-link" href="/2017/08/03/e8-87-aa-e5-b7-b1-e7-9b-ae-e5-89-8d-e5-b8-b8-e7-94-a8linux-e5-91-bd-e4-bb-a4/" itemprop="url">
+                  自己目前常用Linux命令
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -1106,12 +1218,30 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-03T16:46:36+08:00">2017-08-03</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-08-03 16:46:36" itemprop="dateCreated datePublished" datetime="2017-08-03T16:46:36+08:00">2017-08-03</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-14 17:09:46" itemprop="dateModified" datetime="2018-03-14T17:09:46+08:00">2018-03-14</time>
+              
             
           </span>
 
@@ -1153,9 +1283,9 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">679</span>
+                <span title="本文字数">679</span>
               
 
               
@@ -1169,7 +1299,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 mins.</span>
+                <span title="阅读时长">1 分钟</span>
               
             </div>
           
@@ -1199,11 +1329,13 @@ mkdir         创建目录
 c
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/08/03/e8-87-aa-e5-b7-b1-e7-9b-ae-e5-89-8d-e5-b8-b8-e7-94-a8linux-e5-91-bd-e4-bb-a4/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/08/03/e8-87-aa-e5-b7-b1-e7-9b-ae-e5-89-8d-e5-b8-b8-e7-94-a8linux-e5-91-bd-e4-bb-a4/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1260,7 +1392,7 @@ c
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -1275,11 +1407,21 @@ c
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/31/e5-9f-ba-e7-a1-80-e8-af-ad-e6-b3-95/" itemprop="url">基础语法</a></h1>
+                <a class="post-title-link" href="/2017/07/31/e5-9f-ba-e7-a1-80-e8-af-ad-e6-b3-95/" itemprop="url">
+                  基础语法
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -1287,12 +1429,30 @@ c
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-31T20:14:54+08:00">2017-07-31</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-31 20:14:54" itemprop="dateCreated datePublished" datetime="2017-07-31T20:14:54+08:00">2017-07-31</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-15 13:38:50" itemprop="dateModified" datetime="2018-03-15T13:38:50+08:00">2018-03-15</time>
+              
             
           </span>
 
@@ -1334,9 +1494,9 @@ c
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">1.5k</span>
+                <span title="本文字数">1.5k</span>
               
 
               
@@ -1350,7 +1510,7 @@ c
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">2 mins.</span>
+                <span title="阅读时长">1 分钟</span>
               
             </div>
           
@@ -1381,11 +1541,13 @@ c
 字面变量（Literal Consta
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/07/31/e5-9f-ba-e7-a1-80-e8-af-ad-e6-b3-95/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/07/31/e5-9f-ba-e7-a1-80-e8-af-ad-e6-b3-95/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1442,7 +1604,7 @@ c
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -1457,11 +1619,21 @@ c
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/25/plsql-e6-b8-b8-e6-a0-87/" itemprop="url">PL/SQL 游标</a></h1>
+                <a class="post-title-link" href="/2017/07/25/plsql-e6-b8-b8-e6-a0-87/" itemprop="url">
+                  PL/SQL 游标
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -1469,12 +1641,30 @@ c
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-25T16:44:29+08:00">2017-07-25</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-25 16:44:29" itemprop="dateCreated datePublished" datetime="2017-07-25T16:44:29+08:00">2017-07-25</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-15 13:40:30" itemprop="dateModified" datetime="2018-03-15T13:40:30+08:00">2018-03-15</time>
+              
             
           </span>
 
@@ -1494,7 +1684,7 @@ c
 
                 
                 
-                  ， 
+                  ，
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Oracle/PL-SQL/" itemprop="url" rel="index"><span itemprop="name">PL/SQL</span></a></span>
@@ -1523,9 +1713,9 @@ c
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">499</span>
+                <span title="本文字数">499</span>
               
 
               
@@ -1539,7 +1729,7 @@ c
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 mins.</span>
+                <span title="阅读时长">1 分钟</span>
               
             </div>
           
@@ -1575,11 +1765,13 @@ c
 1234567891011121314151
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/07/25/plsql-e6-b8-b8-e6-a0-87/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/07/25/plsql-e6-b8-b8-e6-a0-87/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1636,7 +1828,7 @@ c
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -1651,11 +1843,21 @@ c
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/25/plsql-function-e5-87-bd-e6-95-b0/" itemprop="url">PL/SQL Function函数</a></h1>
+                <a class="post-title-link" href="/2017/07/25/plsql-function-e5-87-bd-e6-95-b0/" itemprop="url">
+                  PL/SQL Function函数
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -1663,12 +1865,30 @@ c
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-25T16:33:42+08:00">2017-07-25</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-25 16:33:42" itemprop="dateCreated datePublished" datetime="2017-07-25T16:33:42+08:00">2017-07-25</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-15 13:41:44" itemprop="dateModified" datetime="2018-03-15T13:41:44+08:00">2018-03-15</time>
+              
             
           </span>
 
@@ -1688,7 +1908,7 @@ c
 
                 
                 
-                  ， 
+                  ，
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Oracle/PL-SQL/" itemprop="url" rel="index"><span itemprop="name">PL/SQL</span></a></span>
@@ -1717,9 +1937,9 @@ c
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">1.4k</span>
+                <span title="本文字数">1.4k</span>
               
 
               
@@ -1733,7 +1953,7 @@ c
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 mins.</span>
+                <span title="阅读时长">1 分钟</span>
               
             </div>
           
@@ -1758,11 +1978,13 @@ c
           语法：1234567CREATE [OR REPLACE] FUNCTION function_name[(parameter_name [IN | OUT | IN OUT] type [, ...])]RETURN return_datatype&#123;IS | AS&#125;BEGIN 
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/07/25/plsql-function-e5-87-bd-e6-95-b0/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/07/25/plsql-function-e5-87-bd-e6-95-b0/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1819,7 +2041,7 @@ c
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -1834,11 +2056,21 @@ c
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/25/plsql-e5-ad-98-e5-82-a8-e8-bf-87-e7-a8-8bprocedure/" itemprop="url">PL/SQL 存储过程procedure</a></h1>
+                <a class="post-title-link" href="/2017/07/25/plsql-e5-ad-98-e5-82-a8-e8-bf-87-e7-a8-8bprocedure/" itemprop="url">
+                  PL/SQL 存储过程procedure
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -1846,12 +2078,30 @@ c
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-25T16:24:55+08:00">2017-07-25</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-25 16:24:55" itemprop="dateCreated datePublished" datetime="2017-07-25T16:24:55+08:00">2017-07-25</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-15 13:43:10" itemprop="dateModified" datetime="2018-03-15T13:43:10+08:00">2018-03-15</time>
+              
             
           </span>
 
@@ -1871,7 +2121,7 @@ c
 
                 
                 
-                  ， 
+                  ，
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Oracle/PL-SQL/" itemprop="url" rel="index"><span itemprop="name">PL/SQL</span></a></span>
@@ -1900,9 +2150,9 @@ c
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">2.1k</span>
+                <span title="本文字数">2.1k</span>
               
 
               
@@ -1916,7 +2166,7 @@ c
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">2 mins.</span>
+                <span title="阅读时长">2 分钟</span>
               
             </div>
           
@@ -1941,11 +2191,13 @@ c
           语法：123456CREATE [OR REPLACE] PROCEDURE procedure_name[(parameter_name [IN | OUT | IN OUT] type [, ...])]&#123;IS | AS&#125;BEGIN  &lt; procedure_body 
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/07/25/plsql-e5-ad-98-e5-82-a8-e8-bf-87-e7-a8-8bprocedure/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/07/25/plsql-e5-ad-98-e5-82-a8-e8-bf-87-e7-a8-8bprocedure/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -2002,7 +2254,7 @@ c
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曹钰谦">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个菜鸟码农的学习生活记录">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -2017,11 +2269,21 @@ c
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/24/plsql-e5-9f-ba-e6-9c-ac-e8-af-ad-e6-b3-95/" itemprop="url">PL/SQL 基本语法</a></h1>
+                <a class="post-title-link" href="/2017/07/24/plsql-e5-9f-ba-e6-9c-ac-e8-af-ad-e6-b3-95/" itemprop="url">
+                  PL/SQL 基本语法
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -2029,12 +2291,30 @@ c
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-24T19:47:52+08:00">2017-07-24</time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-24 19:47:52" itemprop="dateCreated datePublished" datetime="2017-07-24T19:47:52+08:00">2017-07-24</time>
             
 
             
-            
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-15 13:44:20" itemprop="dateModified" datetime="2018-03-15T13:44:20+08:00">2018-03-15</time>
+              
             
           </span>
 
@@ -2054,7 +2334,7 @@ c
 
                 
                 
-                  ， 
+                  ，
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Oracle/PL-SQL/" itemprop="url" rel="index"><span itemprop="name">PL/SQL</span></a></span>
@@ -2083,9 +2363,9 @@ c
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="字数统计">1.9k</span>
+                <span title="本文字数">1.9k</span>
               
 
               
@@ -2099,7 +2379,7 @@ c
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">2 mins.</span>
+                <span title="阅读时长">2 分钟</span>
               
             </div>
           
@@ -2126,11 +2406,13 @@ PL/SQL 是一种块结构的语言，每块由三个子部分组成：声明、�
 | S.N. | 段和说明                                     || —- | —————————————- || 1    | 声明此部分开头使用关键字DECLARE。它是一个可
           ...
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/07/24/plsql-e5-9f-ba-e6-9c-ac-e8-af-ad-e6-b3-95/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2017/07/24/plsql-e5-9f-ba-e6-9c-ac-e8-af-ad-e6-b3-95/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -2172,7 +2454,7 @@ PL/SQL 是一种块结构的语言，每块由三个子部分组成：声明、�
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -2350,9 +2632,7 @@ PL/SQL 是一种块结构的语言，每块由三个子部分组成：声明、�
       </section>
 
       
-      <div id="music163player">
-		  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=513360721&auto=1&height=66"></iframe>
-		</div>
+
       
 
     </div>
@@ -2365,8 +2645,8 @@ PL/SQL 是一种块结构的语言，每块由三个子部分组成：声明、�
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
+        <div class="copyright"> &copy; 2017 – <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">曹钰谦</span>
@@ -2386,14 +2666,14 @@ PL/SQL 是一种块结构的语言，每块由三个子部分组成：声明、�
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点总阅读时长">2:15</span>
+    <span title="站点阅读时长">2:03</span>
   
 </div>
 
 
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.7.1</div>
 
 
 
@@ -2401,14 +2681,14 @@ PL/SQL 是一种块结构的语言，每块由三个子部分组成：声明、�
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.0.6</div>
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Mist</a> v6.4.2</div>
 
 
 
 
         
 <div class="busuanzi-count">
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
     <span class="site-uv" title="总访客量">
@@ -2445,7 +2725,10 @@ PL/SQL 是一种块结构的语言，每块由三个子部分组成：声明、�
     
 
     
+	
+    
 
+    
   </div>
 
   
@@ -2507,37 +2790,25 @@ PL/SQL 是一种块结构的语言，每块由三个子部分组成：声明、�
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.0.6"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=6.4.2"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.0.6"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.0.6"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=6.4.2"></script>
 
 
 
   
+  
 
-
-
-	
-
-
-
-
+  
 
   
 
 
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.4.2"></script>
+
+
+
+  
 
 
 
@@ -2887,6 +3158,10 @@ PL/SQL 是一种块结构的语言，每块由三个子部分组成：声明、�
   
 
   
+
+  
+  
+
   
 
   
