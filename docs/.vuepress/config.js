@@ -6,5 +6,5 @@ module.exports = {
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
   },
- theme: 'antdocs',
+ theme: 'hope',
 }
